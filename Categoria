@@ -1,0 +1,66 @@
+package categoria;
+
+import java.util.Scanner;
+
+public class Categoria {
+
+   
+    public static void main(String[] args) {
+    Scanner grava = new Scanner(System.in);
+    int op, tire, ida;
+   
+    System.out.println("1- Veja a mensagem  2- Tire 10% do valor desejado 3- Selecione a categoria 4- Sair ");
+    op = grava.nextInt();
+    
+    if(op == 1 ){
+        System.out.println("Boa noite !! ");
+        
+    }else if(op == 2){
+        System.out.println("Digite um numero");
+        tire = grava.nextInt();
+        double res = tire * 0.1;
+        System.out.println("tirar 10% de " + tire +" fica "+ res );
+        
+    }else if (op == 3){
+        System.out.println("Digite uma idade");
+        ida = grava.nextInt();
+        
+        if (ida >= 1 && ida <=10 ){
+            System.out.println("Categoria Intantil");
+            
+        }else if(ida >= 11 && ida <=13){
+            System.out.println("Categoria Infanto-Juvenil");
+            
+        }else if (ida >=14 && ida <=17){
+            System.out.println("Categoria Pre-Adolecente");
+            
+        }else if(ida > 18){
+          System.out.println("Categoria Adulto");
+          
+        }else{
+        System.out.println("opcao invalida");
+    }
+        
+            
+            
+            
+            
+        
+    }
+    
+        
+            
+        
+       
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    

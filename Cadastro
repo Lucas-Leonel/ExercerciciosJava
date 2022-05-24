@@ -1,0 +1,43 @@
+package pkgwhile;
+
+import java.util.Scanner;
+
+
+public class While {
+
+    
+    
+    public static void main(String[] args) {
+        Scanner grava = new Scanner(System.in);
+        int op;
+        long rg = 0;
+        
+        do{
+            System.out.println("1 - Cadastrar");
+            System.out.println("2 - Alterar");
+            System.out.println("3 - Consultar");
+            System.out.println("4 - Excluir");
+            System.out.println("5 - Sair");
+            op = grava.nextInt();   
+            
+            if(op == 1){
+                System.out.println("Digite seu RG");
+                rg = grava.nextLong();
+            }else if(op == 2){
+                System.out.println("Alterar RG");
+                rg = grava.nextLong();
+            }else if(op == 3){
+                System.out.println("O RG armazenado é: " + rg);
+                
+            }else if (op == 4){
+                rg=0;
+                System.out.println("Cadastro excluido");
+                
+            }
+                
+        }while(op != 5);
+        
+        
+        
+     }
+//

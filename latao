@@ -1,0 +1,23 @@
+package latao;
+
+import java.util.Scanner;
+
+public class Latao {
+
+ 
+    public static void main(String[] args) {
+    Scanner grava = new Scanner(System.in);
+    int valor;
+    System.out.println("Digite o número de latôes:");
+    valor = grava.nextInt();
+    double resultado1 = valor * 0.70;
+    double resultado2 = valor * 0.30;
+    
+    System.out.println(valor + " Latôes vai utilizar " + resultado1 + " de cobre e "+ resultado2 + " de zinco");
+             
+             
+             
+             
+    }
+    
+}

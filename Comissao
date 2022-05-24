@@ -1,0 +1,27 @@
+package comissao;
+
+import java.util.Scanner;
+
+
+public class Comissao {
+
+   
+    public static void main(String[] args) {
+        Scanner grava = new Scanner(System.in);
+        
+        String nome;
+        double vendas;
+        int salario = 1500;
+        
+        System.out.println("Digite seu nome:");
+        nome = grava.nextLine();
+        System.out.println("Digite quantos R$ em vendas voçê fez: ");
+        vendas = grava.nextDouble();
+        
+        double resultado = salario +(vendas * 0.15);
+        
+        System.out.println(nome + " Seu salario é " + resultado);
+        
+    }
+    
+}

@@ -1,0 +1,18 @@
+package main;
+
+public class main {
+
+    
+    public static void main(String[] args) {
+       int num = 100;
+       
+       while(num > 0)
+       {
+           num--;
+           System.out.println(num);
+       }
+    }
+    
+}
+//crie um programa que exiba na tela os numeros
+ de 100 ate 0 ;

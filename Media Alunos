@@ -1,0 +1,26 @@
+package main;
+
+import java.util.Scanner;
+
+
+public class main {
+
+    
+    public static void main(String[] args) {
+        Scanner grava = new Scanner(System.in);
+        int idade = 0, alunos, cont = 1, total = 0;
+        
+        System.out.println("Digite a quantidade de alunos");
+        alunos = grava.nextInt();
+        
+        do{
+            System.out.println("Digite a idade dos alunos");
+            idade = grava.nextInt();
+            cont++;
+            total += idade;
+            
+        }while(cont <= alunos);
+        total /= alunos;
+        System.out.println("A media é: "+ total);
+
+//receba a idade de n alunos e forneça a média 

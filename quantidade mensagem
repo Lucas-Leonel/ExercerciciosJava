@@ -1,0 +1,24 @@
+package main;
+
+import java.util.Scanner;
+
+
+public class main {
+
+    
+    public static void main(String[] args) {
+       Scanner grava = new Scanner(System.in);
+       int quant, cont = 1;
+        System.out.println("quantas vezes a mensagem: Isso é um teste, deve aparecer na tela");
+            quant = grava.nextInt();
+       do{
+           System.out.println("Isso é um teste");
+           cont++;
+           
+       }while(cont <= quant);
+               
+    }
+    
+//receba  via teclado, quantas vezes a mensagem
+ "Isso é um teste deve aparecer na tela"
+

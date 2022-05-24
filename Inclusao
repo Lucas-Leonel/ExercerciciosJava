@@ -1,0 +1,37 @@
+package main;
+
+import java.util.Scanner;
+
+
+public class main {
+
+  
+    public static void main(String[] args) {
+        Scanner grava = new Scanner(System.in);
+        long op, cpf, rg, cod;       
+       
+        System.out.println("1- Inclusao de dados  2- Alteração 3- Exclusão 4- Sair ");  
+        op = grava.nextInt();
+        
+        if(op == 1){
+        System.out.println("Digite seu CPF ");
+        cpf = grava.nextLong();
+        System.out.println("Digite seu RG");
+        rg = grava.nextLong();
+        System.out.println("Digite o codigo");
+        cod = grava.nextLong();
+        System.out.println("Seus dados foram cadastrado!");
+            
+        }else if(op == 2){
+        System.out.println("Dados alterados com sucesso");      
+        
+        }else if (op == 3){
+        System.out.println("Boa noite!");
+            
+        }else if (op == 4){
+        System.out.println("Fechando o sistema");   
+        
+        }else{
+            System.out.println("opcao invalida");
+               
+        }

@@ -1,0 +1,30 @@
+package calccigarro;
+
+import java.util.Scanner;
+
+
+public class CalcCigarro {
+
+    public static void main(String[] args) {
+        Scanner grava = new Scanner(System.in);
+        
+        String nome;
+        double valor ;
+        int quantcigar;
+        
+        System.out.println("Digite seu nome:");
+        nome = grava.nextLine();
+        System.out.println("Digite a quantidade de cigarro");
+        quantcigar = grava.nextInt();
+        System.out.println("Digite o valor unitário do cigarro em R$");
+        valor = grava.nextDouble();
+        double resultado = quantcigar*valor;
+        
+        System.out.println(nome + "Voçê gasto R$: " + resultado + " em cigarros por dia");
+        
+     
+        
+       
+        
+        
+    }

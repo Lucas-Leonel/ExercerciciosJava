@@ -1,0 +1,20 @@
+package sucessor1;
+
+import java.util.Scanner;
+
+
+public class Sucessor1 {
+
+    
+    public static void main(String[] args) {
+        
+    Scanner grava = new Scanner(System.in);
+    int valor;
+    System.out.println("Digite um número");
+    valor = grava.nextInt();
+    int resultado = valor + 1;
+    
+    System.out.println("O sucessor de " + valor + " é " + resultado);
+    }
+    
+}
